@@ -1,0 +1,76 @@
+product-id: 780
+media-path: oggs/%s
+comment: Forscher Geburtstag
+welcome: start
+# Spiellogik
+scripts:
+  ### Rezept ###
+  forscher0:
+  - $block<=4? P(forscher_0)
+  - $block>=5? P(rezept_forscher) $block:=6
+  rezeptrot:
+  - $block<=5? P(rezept_block)
+  - $block>=6? P(rezept_rot)
+  rezeptgruen:
+  - $block<=5? P(rezept_block)
+  - $block>=6? P(rezept_gruen)
+  rezeptgelb:
+  - $block<=5? P(rezept_block)
+  - $block>=6? P(rezept_gelb)
+  rezeptblau:
+  - $block<=5? P(rezept_block)
+  - $block>=6? P(rezept_blau)
+  rezeptlila:
+  - $block<=5? P(rezept_block)
+  - $block>=6? P(rezept_lila)
+  ### Zutaten ###
+  zutatrot:
+  - P(zutat_rot)
+  zutatgruen:
+  - P(zutat_gruen)
+  zutatgelb:
+  - P(zutat_gelb)
+  zutatblau:
+  - P(zutat_blau)
+  zutatlila:
+  - P(zutat_lila) $block:=5
+  ### Forscher nach Stationen ###
+  forscher1:
+  - P(forscher_1)
+  forscher2:
+  - P(forscher_2)
+  picknick:
+  - P(picknick)
+  forscher3:
+  - P(forscher_3)
+  forscher4:
+  - P(forscher_4)
+  forscher5:
+  - P(forscher_5)
+  forscher6:
+  - P(forscher_6)
+  forscher7:
+  - P(forscher_7)
+# Codezuweisung
+scriptcodes:
+  start: 7001
+  forscher0: 7002
+  zutatrot: 7003
+  zutatgruen: 7004
+  zutatgelb: 7005
+  zutatblau: 7006
+  zutatlila: 7007
+  picknick: 7008
+  forscher1: 7011
+  forscher2: 7012
+  forscher3: 7013
+  forscher4: 7014
+  forscher5: 7015
+  forscher6: 7016
+  forscher7: 7017
+  rezeptrot: 7023
+  rezeptgruen: 7024
+  rezeptgelb: 7025
+  rezeptblau: 7026
+  rezeptlila: 7027
+  
