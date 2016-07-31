@@ -1,7 +1,7 @@
 # Forscher-Geburtstag
 Eine Forscherrallye zum 6. Geburtstag für Kinder (etwa 5-7 Jahre)  die mit dem TipToi-Stift gepielt wird.
 
-Die Kinder müssen die UFO-Mixtur (Ultrakurzlebige FlugObjekte = Riesenseifenblasen) retten. Dazu werden die Zutaten zuerst auf einer Ralley gefunden und anschliessend nach Rezept zusammengemischt.
+Die Kinder müssen die UFO-Mixtur (Ultrakurzlebige FlugObjekte = Riesenseifenblasen) retten. Dazu werden die Zutaten zuerst auf einer Rallye gefunden und anschließend nach Rezept zusammengemischt.
 
 Zum erstellen einer personalisierten .gme-Datei ist das [tttool](https://github.com/entropia/tip-toi-reveng) von Nöten.
 
